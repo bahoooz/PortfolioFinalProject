@@ -5,7 +5,7 @@ import { CaretUp } from "@phosphor-icons/react";
 const Header = () => {
   return (
     <div id="header">
-      <h1>Je m'appelle <br /> Julien Brault--Chérif,</h1>
+      <h1>Je m'appelle <br /> Georges Brault--Chérif,</h1>
       <h2>
         Je suis développeur Web Front-End, <br /> et apprenti développeur web
         Full-Stack
