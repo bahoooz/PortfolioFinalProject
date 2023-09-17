@@ -5,7 +5,7 @@ import "../../global-code/components-css/Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <img src="../../../public/logo-navbar.webp" alt="logo bahoz" />
+      <img src="../../../public/assets/logo-navbar.webp" alt="logo bahoz" />
       <a className="url" href="#">
         <span>bahoz-dev.com</span>
       </a>

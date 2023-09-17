@@ -13,31 +13,31 @@ const Header = () => {
       <div className="container-projects">
         <div className="img-box">
           <div className="hover-img">
-            <img src="../../../public/Utf-logo.webp" alt="logo UTF France" />
+            <img src="../../../public/assets/Utf-logo.webp" alt="logo UTF France" />
           </div>
           <img
             className="img-project"
-            src="../../../public/Utf-project.webp"
+            src="../../../public/assets/Utf-project.webp"
             alt="Image projet UTF France"
           />
         </div>
         <div className="img-box">
           <div className="hover-img">
-            <img src="../../../public/EcobotLogo.webp" alt="logo Ecobot" />
+            <img src="../../../public/assets/EcobotLogo.webp" alt="logo Ecobot" />
           </div>
           <img
             className="img-project"
-            src="../../../public/Ecobot-project.webp"
+            src="../../../public/assets/Ecobot-project.webp"
             alt="Image projet Ecobot"
           />
         </div>
         <div className="img-box">
           <div className="hover-img">
-            <img src="../../../public/Obsidian-Logo.webp" alt="logo Obsidian" />
+            <img src="../../../public/assets/Obsidian-Logo.webp" alt="logo Obsidian" />
           </div>
           <img
             className="img-project"
-            src="../../../public/Obsidian-project.webp"
+            src="../../../public/assets/Obsidian-project.webp"
             alt="Image projet Obsidian"
           />
         </div>

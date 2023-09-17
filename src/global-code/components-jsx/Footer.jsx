@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
       </ul>
       <a className="url" href="#"><span>bahoz-dev.com</span></a>
-      <img src="../../../public/logo-navbar.webp" alt="logo bahoz" />
+      <img src="../../../public/assets/logo-navbar.webp" alt="logo bahoz" />
     </footer>
   );
 };
