@@ -5,7 +5,7 @@ import "../../global-code/components-css/Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <img src="../../../public/assets/logo-navbar.webp" alt="logo bahoz" />
+      <img src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/logo-navbar.webp?v=1695170634354" alt="logo bahoz" />
       <a className="url" href="#">
         <span>bahoz-dev.com</span>
       </a>

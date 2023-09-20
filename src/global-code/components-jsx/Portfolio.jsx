@@ -15,7 +15,7 @@ const Portfolio = () => {
         project_name="Progressive.Web.App - UTF France"
         project_technos="React / NodeJS / ExpressJS / MongoDB"
         project_desc="Application Web pour le recrutement de candidats et la postulation pour des offres"
-        project_img="../../../public/assets/Utf-project.webp"
+        project_img="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/utf-project.webp?v=1695170646794"
         project_alt="image de projet UTF France"
         project_link="#"
       />
@@ -23,7 +23,7 @@ const Portfolio = () => {
         project_name="Projet en formation - EcoBot"
         project_technos="HTML / CSS / JavaScript / Figma"
         project_desc="IA fictive sur la génération de médias en rapport avec l’écologie pour améliorer la prévention"
-        project_img="../../../public/assets/Ecobot-project.webp"
+        project_img="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/ecobot-project.webp?v=1695170632409"
         project_alt="image de projet Ecobot"
         project_link="https://eco-bot-web.glitch.me/"
       />
@@ -31,7 +31,7 @@ const Portfolio = () => {
         project_name="Marque de montres de luxe fictive - Obsidian"
         project_technos="HTML / CSS / Figma"
         project_desc="Marque de montres de luxe de thème sombre avec une élégance unique"
-        project_img="../../../public/assets/Obsidian-project.webp"
+        project_img="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/obsidian-project.webp?v=1695170640925"
         project_alt="image de projet Obsidian"
         project_link=""
       />

@@ -13,31 +13,31 @@ const Header = () => {
       <div className="container-projects">
         <div className="img-box">
           <div className="hover-img">
-            <img src="../../../public/assets/utf-logo.webp" alt="logo UTF France" />
+            <img src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/utf-logo.webp?v=1695170644550" alt="logo UTF France" />
           </div>
           <img
             className="img-project"
-            src="../../../public/assets/Utf-project.webp"
+            src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/utf-project.webp?v=1695170646794"
             alt="Image projet UTF France"
           />
         </div>
         <div className="img-box">
           <div className="hover-img">
-            <img src="../../../public/assets/EcobotLogo.webp" alt="logo Ecobot" />
+            <img src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/ecobotlogo.webp?v=1695170630666" alt="logo Ecobot" />
           </div>
           <img
             className="img-project"
-            src="../../../public/assets/Ecobot-project.webp"
+            src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/ecobot-project.webp?v=1695170632409"
             alt="Image projet Ecobot"
           />
         </div>
         <div className="img-box">
           <div className="hover-img">
-            <img src="../../../public/assets/Obsidian-Logo.webp" alt="logo Obsidian" />
+            <img src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/obsidian-logo.webp?v=1695170637550" alt="logo Obsidian" />
           </div>
           <img
             className="img-project"
-            src="../../../public/assets/Obsidian-project.webp"
+            src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/obsidian-project.webp?v=1695170640925"
             alt="Image projet Obsidian"
           />
         </div>
