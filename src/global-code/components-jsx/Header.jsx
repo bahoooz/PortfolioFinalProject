@@ -2,6 +2,7 @@ import React from "react";
 import "../components-css/Header.css";
 import { CaretUp } from "@phosphor-icons/react";
 import UtfLogo from "../../assets/utf-logo.webp";
+import UtfProject from "../../assets/utf-project.webp";
 
 const Header = () => {
   return (
@@ -14,11 +15,11 @@ const Header = () => {
       <div className="container-projects">
         <div className="img-box">
           <div className="hover-img">
-            <img src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/utf-logo.webp?v=1695170644550" alt="logo UTF France" />
+            <img src={UtfLogo} alt="logo UTF France" />
           </div>
           <img
             className="img-project"
-            src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/utf-project.webp?v=1695170646794"
+            src={UtfProject}
             alt="Image projet UTF France"
           />
         </div>
