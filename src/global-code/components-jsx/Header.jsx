@@ -1,6 +1,7 @@
 import React from "react";
 import "../components-css/Header.css";
 import { CaretUp } from "@phosphor-icons/react";
+import UtfLogo from "../../assets/utf-logo.webp";
 
 const Header = () => {
   return (
