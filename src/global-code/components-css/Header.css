@@ -41,6 +41,7 @@
   align-items: center;
   gap: 50px;
   margin-bottom: 40px;
+  width: 90%;
 }
 .hover-img img {
   width: 125px;
@@ -48,15 +49,14 @@
 .img-project {
   width: 150px;
   border-radius: 10px;
+  width: 100%;
 }
-
 .img-box {
   position: relative;
   width: fit-content;
   overflow: hidden;
   height: 150px;
 }
-
 .img-box:hover .hover-img {
   opacity: 1;
   cursor: pointer;

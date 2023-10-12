@@ -12,8 +12,8 @@ const GlobalPortfolio = () => {
         <div id="global-portfolio">
         <Navbar />
         <Header />
-        <Histoire />
         <Portfolio />
+        <Histoire />
         <Contact />
         <Footer />
         </div>
