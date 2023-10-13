@@ -19,8 +19,10 @@
     }
     .mobile-box-project img {
         width: 190px;
+        height: 190px;
         border-radius: 10px;
         margin-bottom: 15px;
+        object-fit: cover;
     }
     .mobile-box-project {
         display: flex;
@@ -59,6 +61,8 @@
     }
     .tablet-box-project img {
         width: 190px;
+        height: 190px;
+        object-fit: cover;
         border-radius: 10px;
     }
     .tablet-box-project {
@@ -101,6 +105,11 @@
         border-radius: 10px;
         position: relative;
         overflow: hidden;
+    }
+    .desktop-box-img img {
+        height: 190px;
+        width: 190px;
+        object-fit: cover;
     }
     .img-hover {
         position: absolute;

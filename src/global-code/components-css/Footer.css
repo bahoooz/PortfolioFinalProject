@@ -1,26 +1,18 @@
 footer {
   background: black;
-  height: 60px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 0 25px;
-  position: sticky;
-  top: 0;
+  padding: 30px 25px;
   z-index: 2;
+  border-top: 1px solid white;
+}
+.networks-link li {
+  color: #d1c6ff;
 }
 footer img {
   display: none;
-}
-.icons-footer {
-  display: flex;
-  list-style-type: none;
-  font-size: 30px;
-  gap: 15px;
-  align-items: center;
-}
-.icons-footer li {
-  height: 30px;
 }
 footer .url {
   text-decoration: none;
@@ -41,7 +33,14 @@ footer .url:hover {
 
 @media (min-width: 600px) {
   footer {
-    padding: 0 30px;
+    padding: 30px 30px;
+  }
+}
+
+@media (min-width: 905px) {
+  footer {
+    padding: 30px 100px;
+    flex-direction: row;
   }
   footer img {
     display: block;
@@ -49,20 +48,14 @@ footer .url:hover {
   }
 }
 
-@media (min-width: 905px) {
-  footer {
-    padding: 0 50px;
-  }
-}
-
 @media (min-width: 1280px) {
   footer {
-    padding: 0 75px;
+    padding: 30px 100px;
   }
 }
 
 @media (min-width: 1440px) {
   footer {
-    padding: 0 100px;
+    padding: 30px 150px;
   }
 }

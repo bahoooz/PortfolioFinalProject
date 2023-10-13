@@ -17,6 +17,7 @@ const Header = () => {
         Je suis développeur Web Front-End, <br /> et apprenti développeur web
         Full-Stack
       </h2>
+      <span>{"</> / <h2></h2> const devModeOn = (yes) => {}"}</span>
       <div className="container-projects">
       <div className="img-box">
           <div className="hover-img">
@@ -49,7 +50,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <a href="#header"><CaretDown color="#fcfcfc" weight="bold" /></a>
+      <a href="#portfolio"><CaretDown color="#fcfcfc" weight="bold" /></a>
       <div className="blur"></div>
     </div>
   );
