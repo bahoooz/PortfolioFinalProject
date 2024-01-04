@@ -3,6 +3,7 @@
 
 body {
     background: #000;
+    overflow-x: hidden;
 }
 * {
     color: white;
@@ -22,4 +23,5 @@ body {
 }
 #global-portfolio {
   max-width: 100vw;
+
 }

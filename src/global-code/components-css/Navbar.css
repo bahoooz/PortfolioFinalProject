@@ -1,6 +1,6 @@
 nav {
-  background: black;
-  height: 60px;
+  background: rgb(0, 0, 0, 0.6);
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,9 +8,15 @@ nav {
   position: sticky;
   top: 0;
   z-index: 2;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+nav .url {
+  display: none;
 }
 nav img {
-  display: none;
+  width: 50px;
+  border-radius: 50%;
 }
 .icons-navbar {
   display: flex;
@@ -25,13 +31,11 @@ nav img {
 nav .url {
   text-decoration: none;
 }
-nav .url span:hover {
-  color: #d1c6ff;
-  transition: 0.3s;
-}
 nav .url:hover {
   transform: scale(1.1);
   cursor: pointer;
+  transition: 0.3s;
+  color: #d1c6ff;
   transition: 0.3s;
 }
 .icons-navbar a:hover {
@@ -43,9 +47,13 @@ nav .url:hover {
   nav {
     padding: 0 30px;
   }
-  nav img {
+  .left-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  nav .url {
     display: block;
-    width: 70px;
   }
 }
 

@@ -1,18 +1,31 @@
 import React from "react";
-import { Package, BookOpen, EnvelopeSimpleOpen } from "@phosphor-icons/react";
+import {
+  Package,
+  BookOpen,
+  EnvelopeSimpleOpen,
+  Lightning,
+} from "@phosphor-icons/react";
 import "../../global-code/components-css/Navbar.css";
+import Logo from "../../assets/logo_bahoz.webp";
 
 const Navbar = () => {
   return (
     <nav>
-      <img src="https://cdn.glitch.global/a0669e88-fbe6-4a16-b869-bd97391d72e4/logo-navbar.webp?v=1695170634354" alt="logo bahoz" />
-      <a className="url" href="#">
-        <span>bahoz-dev.netlify.app</span>
-      </a>
+      <div className="left-nav">
+        <img src={Logo} alt="logo bahoz" />
+        <a className="url" href="#">
+          bahoz-dev.netlify.app
+        </a>
+      </div>
       <ul className="icons-navbar">
         <a href="#portfolio">
           <li>
             <Package color="#FFF" weight="regular" />
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <Lightning color="#FFF" weight="regular" />
           </li>
         </a>
         <a href="#histoire">

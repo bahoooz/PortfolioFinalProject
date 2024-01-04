@@ -1,57 +1,59 @@
 import React from "react";
 import "../components-css/Header.css";
-import { CaretDown } from "@phosphor-icons/react";
-
-import ElisePortfolioLogo from "../../assets/elise-portfolio-logo.webp";
-import ElisePortfolioProject from "../../assets/elise-portfolio-project.webp";
-import UtfLogo from "../../assets/utf-logo.webp";
-import UtfProject from "../../assets/utf-project.webp";
-import EcobotLogo from "../../assets/ecobotlogo.webp";
-import EcobotProject from "../../assets/ecobot-project.webp";
+import { CaretDown, Link } from "@phosphor-icons/react";
+import HydraImg from "../../assets/header-hydra.webp";
+import EliseImg from "../../assets/header-elise.webp";
+import UtfImg from "../../assets/header-utf.webp";
 
 const Header = () => {
   return (
     <div id="header">
-      <h1>Je m'appelle <br /> Julien Brault--Chérif,</h1>
+      <h1>
+        Je m'appelle <br /> Julien Brault--Chérif,
+      </h1>
       <h2>
         Je suis développeur Web Front-End, <br /> et apprenti développeur web
         Full-Stack
       </h2>
       <span>{"</> / <h2></h2> const devModeOn = (yes) => {}"}</span>
       <div className="container-projects">
-      <div className="img-box">
-          <div className="hover-img">
-            <img src={ElisePortfolioLogo} alt="logo Obsidian" />
-          </div>
-          <img
-            className="img-project"
-            src={ElisePortfolioProject}
-            alt="Image projet Obsidian"
-          />
-        </div>
+
         <div className="img-box">
-          <div className="hover-img">
-            <img src={UtfLogo} alt="logo UTF France" />
-          </div>
+          <a target="_blank" href="" className="hover-img">
+            <Link className="icon-header" />
+          </a>
           <img
             className="img-project"
-            src={UtfProject}
-            alt="Image projet UTF France"
+            src={HydraImg}
+            alt="Image projet Hydra"
           />
         </div>
+
         <div className="img-box">
-          <div className="hover-img">
-            <img src={EcobotLogo} alt="logo Ecobot" />
-          </div>
+          <a target="_blank" href="https://utf-app.netlify.app/" className="hover-img">
+            <Link className="icon-header" />
+          </a>
+          <img className="img-project" src={UtfImg} alt="Image projet Utf" />
+        </div>
+
+        <div className="img-box">
+          <a target="_blank" href="https://bahoooz.github.io/elise-portfolio/" className="hover-img">
+            <Link className="icon-header" />
+          </a>
           <img
             className="img-project"
-            src={EcobotProject}
-            alt="Image projet Ecobot"
+            src={EliseImg}
+            alt="Image projet Elise"
           />
         </div>
+
       </div>
-      <a href="#portfolio"><CaretDown color="#fcfcfc" weight="bold" /></a>
-      <div className="blur"></div>
+      <a href="#portfolio">
+        <CaretDown color="#fcfcfc" weight="bold" />
+      </a>
+      <div className="blur blur-1"></div>
+      <div className="blur blur-2"></div>
+      <div className="blur blur-3"></div>
     </div>
   );
 };
