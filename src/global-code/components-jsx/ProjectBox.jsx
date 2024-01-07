@@ -1,58 +1,44 @@
 import React from "react";
 import "../components-css/ProjectBox.css";
-import { HandTap } from "@phosphor-icons/react";
 
 const ProjectBox = ({
-  project_name,
-  project_technos,
-  project_desc,
-  project_img,
-  project_alt,
-  project_link
+  name,
+  desc,
+  img,
+  alt,
+  link,
+  techno_1,
+  techno_2,
+  techno_3,
+  techno_4,
+  alt_techno_1,
+  alt_techno_2,
+  alt_techno_3,
+  alt_techno_4,
+  mobile_desc,
+  mobile_technos,
 }) => {
   return (
     <div className="container-project-box">
-      <div className="container-desktop">
-        <div className="desktop-box-project">
-          <div className="desktop-content-project">
-            <h3>{project_name}</h3>
-            <a target="_blank" href={project_link}>
-              <div className="desktop-box-img">
-                <div className="img-hover">
-                  <HandTap
-                    className="hand-hover"
-                    size={60}
-                    color="#fcfcfc"
-                    weight="regular"
-                  />
-                </div>
-                <img src={project_img} alt={project_alt} />
-              </div>
-            </a>
-            <span>{project_technos}</span>
+      <div className="container-img-box-project">
+        <a href={link}>
+          <img className="img-box-project" src={img} alt={alt} />
+          <div className="hover-img-box-project">
+            <span className="desc-img-box-project">{desc}</span>
+            <ul className="technos-img-box-project">
+              <img src={techno_1} alt={alt_techno_1} />
+              <img src={techno_2} alt={alt_techno_2} />
+              <img src={techno_3} alt={alt_techno_3} />
+              <img src={techno_4} alt={alt_techno_4} />
+            </ul>
           </div>
-          <span className="desktop-desc-project">{project_desc}</span>
-        </div>
+        </a>
       </div>
 
-      <div className="container-tablet">
-        <div className="tablet-box-project">
-          <a target="_blank" href={project_link}><img src={project_img} alt={project_alt} /></a>
-          <div className="tablet-content-project">
-            <h3>{project_name}</h3>
-            <span>{project_technos}</span>
-            <span className="desc">{project_desc}</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-mobile">
-        <div className="mobile-box-project">
-          <a target="_blank" href={project_link}><img src={project_img} alt={project_alt} /></a>
-          <h3>{project_name}</h3>
-          <span>{project_technos}</span>
-          <span className="desc">{project_desc}</span>
-        </div>
+      <div className="content-box-project">
+        <h3 className="title-box-project">{name}</h3>
+        <p className="mobile-desc-box-project">{mobile_desc}</p>
+        <span className="mobile-technos-box-project">{mobile_technos}</span>
       </div>
     </div>
   );

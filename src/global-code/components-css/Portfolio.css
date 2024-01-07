@@ -1,18 +1,122 @@
 #portfolio {
-    margin: 115px 0;
+  margin: 115px 0;
+  overflow: hidden;
+  position: relative;
 }
 #portfolio .title {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
 }
 #portfolio .title h1 {
-    font-weight: 300;
+  font-weight: 300;
 }
-@media (min-width: 1280px) {
-    #portfolio .title {
-        margin-bottom: 75px;
-    }
+
+.container-portfolio {
+  display: grid;
+  gap: 70px;
+}
+
+#portfolio .blur {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #fff 10%,
+    rgba(135, 79, 255, 0.3) 40%
+  );
+  filter: blur(30vw);
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#portfolio .blur-1 {
+  top: 25%;
+  left: 100%;
+  z-index: 0;
+}
+
+#portfolio .blur-2 {
+  bottom: -10%;
+  left: 0;
+  z-index: 0;
+}
+
+@media screen and (min-width: 600px) {
+  #portfolio {
+    padding: 0 30px;
+  }
+  #portfolio .blur {
+    height: 500px;
+    width: 500px;
+  }
+  .container-portfolio {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px 12vw;
+  }
+}
+
+@media screen and (min-width: 905px) {
+  #portfolio {
+    padding: 0 50px;
+  }
+  #portfolio .blur {
+    filter: blur(25vw);
+    height: 600px;
+    width: 600px;
+  }
+  .container-portfolio {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #portfolio {
+    padding: 0 75px 100px;
+  }
+  #portfolio .blur {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #fff 10%,
+      rgba(135, 79, 255, 0.3) 50%
+    );
+    filter: blur(20vw);
+    height: 800px;
+    width: 800px;
+  }
+  #portfolio .blur-1 {
+    top: 100%;
+    left: 50%;
+    z-index: -1;
+  }
+
+  #portfolio .blur-2 {
+    display: none;
+  }
+  #portfolio .title {
+    margin-bottom: 100px;
+  }
+  .container-portfolio {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 70px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #portfolio {
+    padding: 0 100px 100px;
+  }
+  #portfolio .blur {
+    width: 1000px;
+  }
+  .container-portfolio {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 0;
+  }
+  #portfolio .title {
+    margin-bottom: 150px;
+  }
 }
