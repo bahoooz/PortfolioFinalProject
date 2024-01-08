@@ -6,6 +6,7 @@ import Portfolio from "./components-jsx/Portfolio";
 import Contact from "./components-jsx/Contact";
 import Footer from "./components-jsx/Footer";
 import '../global-code/components-css/GlobalPortfolio.css'
+import Skills from "./components-jsx/Skills";
 
 const GlobalPortfolio = () => {
     return ( 
@@ -13,6 +14,7 @@ const GlobalPortfolio = () => {
         <Navbar />
         <Header />
         <Portfolio />
+        <Skills />
         <Histoire />
         <Contact />
         <Footer />

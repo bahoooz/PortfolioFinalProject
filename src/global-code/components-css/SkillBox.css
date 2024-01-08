@@ -1,0 +1,29 @@
+.box-skill img {
+    width: 50px;
+}
+
+.box-skill {
+    height: 120px;
+    width: 120px;
+    background: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.container-skillbox {
+    text-align: center;
+    width: fit-content;
+}
+
+@media screen and (min-width: 1280px) {
+    .box-skill {
+        height: 170px;
+        width: 170px;
+    }
+    .box-skill img {
+        width: 70px;
+    }
+}
