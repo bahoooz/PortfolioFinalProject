@@ -1,0 +1,199 @@
+#blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+#blur .blur-section .blur {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #fff 10%,
+    rgba(135, 79, 255, 0.3) 40%
+  );
+  filter: blur(30vw);
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* BLUR HEADER */
+
+.blur-header .blur-1 {
+  top: 0;
+  left: 0;
+}
+.blur-header .blur-2 {
+  top: 600px;
+  left: 100%;
+}
+.blur-header .blur-3 {
+  top: 1000px;
+  left: 0;
+}
+
+/* BLUR PORTFOLIO */
+
+.blur-portfolio .blur-1 {
+  top: 2100px;
+  left: 100%;
+}
+.blur-portfolio .blur-2 {
+  top: 3000px;
+  left: 0;
+}
+.blur-portfolio .blur-3 {
+  top: 3900px;
+  left: 100%;
+}
+
+/* BLUR SKILLS */
+
+.blur-skills .blur-1 {
+  top: 5400px;
+  left: 50%;
+  z-index: 0 !important;
+}
+
+/* BLUR HISTOIRE */
+
+.blur-histoire .blur-1 {
+  top: 6100px;
+  left: 0;
+}
+
+.blur-histoire .blur-2 {
+  top: 6600px;
+  left: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  #blur .blur-section .blur {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #fff 10%,
+      rgba(135, 79, 255, 0.3) 60%
+    );
+    filter: blur(25vw);
+    height: 500px;
+    width: 500px;
+  }
+  /* BLUR HEADER */
+  /* BLUR PORTFOLIO */
+  .blur-portfolio .blur-1 {
+    top: 2100px;
+    left: 100%;
+  }
+  .blur-portfolio .blur-2 {
+    top: 2600px;
+    left: 0;
+  }
+  .blur-portfolio .blur-3 {
+    top: 3000px;
+    left: 100%;
+  }
+  /* BLUR SKILLS */
+  .blur-skills .blur-1 {
+    top: 65%;
+  }
+  /* BLUR HISTOIRE */
+  .blur-histoire .blur-1 {
+    top: 77%;
+    left: 0;
+  }
+  .blur-histoire .blur-2 {
+    top: 88%;
+    left: 100%;
+  }
+}
+
+@media screen and (min-width: 905px) {
+  #blur .blur-section .blur {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #fff 10%,
+      rgba(135, 79, 255, 0.3) 60%
+    );
+    filter: blur(20vw);
+    height: 600px;
+    width: 600px;
+  }
+  /* BLUR HEADER */
+  /* BLUR PORTFOLIO */
+  .blur-portfolio .blur-1 {
+    top: 2600px;
+    left: 0;
+  }
+  .blur-portfolio .blur-2 {
+    top: 3200px;
+    left: 100%;
+  }
+  .blur-portfolio .blur-3 {
+    display: none;
+  }
+  /* BLUR SKILLS */
+}
+
+@media screen and (min-width: 1280px) {
+  #blur .blur-section .blur {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #fff 10%,
+      rgba(135, 79, 255, 0.3) 80%
+    );
+    filter: blur(15vw);
+  }
+  /* BLUR HEADER */
+  .blur-header .blur-1 {
+    top: 200px;
+  }
+  .blur-header .blur-2 {
+    top: 700px;
+    left: 90%;
+  }
+  .blur-header .blur-3 {
+    display: none;
+  }
+  /* BLUR PORTFOLIO */
+  .blur-portfolio .blur-1 {
+    top: 1600px;
+    left: 70%;
+  }
+  .blur-portfolio .blur-2 {
+    display: none;
+  }
+  /* BLUR SKILLS */
+  /* BLUR HISTOIRE */
+  .blur-histoire .blur-1 {
+    top: 90%;
+    left: 50%;
+  }
+  .blur-histoire .blur-2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #blur .blur-section .blur {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #fff 10%,
+      rgba(135, 79, 255, 0.3) 80%
+    );
+    filter: blur(10vw);
+    height: 600px;
+    width: 600px;
+  }
+  /* BLUR HEADER */
+  .blur-header .blur-1 {
+    top: 400px;
+    left: 100px;
+  }
+  /* BLUR PORTFOLIO */
+  .blur-portfolio .blur-1 {
+    top: 1900px;
+  }
+}

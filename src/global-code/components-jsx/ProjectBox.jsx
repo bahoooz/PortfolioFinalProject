@@ -21,7 +21,7 @@ const ProjectBox = ({
   return (
     <div className="container-project-box">
       <div className="container-img-box-project">
-        <a href={link}>
+        <a href={link} target="_blank">
           <img className="img-box-project" src={img} alt={alt} />
           <div className="hover-img-box-project">
             <span className="desc-img-box-project">{desc}</span>

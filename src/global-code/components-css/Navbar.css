@@ -28,6 +28,14 @@ nav img {
 .icons-navbar li {
   height: 30px;
 }
+.icons-navbar li:hover {
+  transform: scale(1.05);
+  transition: .3s;
+}
+.icons-navbar li:hover path {
+  color: #d1c6ff;
+  transition: .3s;
+}
 nav .url {
   text-decoration: none;
 }
@@ -36,11 +44,6 @@ nav .url:hover {
   cursor: pointer;
   transition: 0.3s;
   color: #d1c6ff;
-  transition: 0.3s;
-}
-.icons-navbar a:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
 }
 
 @media (min-width: 600px) {

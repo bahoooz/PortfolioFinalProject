@@ -1,61 +1,81 @@
 footer {
-  background: black;
+  overflow: hidden;
+  border-top: 2px solid white;
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0 100px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  display: flex;
   align-items: center;
-  padding: 30px 25px;
-  z-index: 2;
-  border-top: 1px solid white;
+  gap: 10px;
 }
-.networks-link li {
-  color: #d1c6ff;
-}
-footer img {
-  display: none;
-}
-footer .url {
+footer li a {
   text-decoration: none;
 }
-footer .url span:hover {
-  color: #d1c6ff;
-  transition: 0.3s;
+footer li a:hover {
+  color: #D1C6FF;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
 }
-footer .url:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  transition: 0.3s;
+.icon-footer {
+  font-size: 40px;
 }
-.icons-footer a:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
+footer .copyright {
+  position: absolute;
+  bottom: 30px;
+  text-decoration: none;
 }
-
-@media (min-width: 600px) {
-  footer {
-    padding: 30px 30px;
-  }
+.logo {
+  display: none;
 }
 
-@media (min-width: 905px) {
-  footer {
-    padding: 30px 100px;
-    flex-direction: row;
-  }
-  footer img {
+@media screen and (min-width: 905px) {
+  .logo {
     display: block;
-    width: 70px;
+    position: absolute;
+    width: 80px;
+    border-radius: 50%;
+    left: 30px;
+  }
+  footer .copyright {
+    right: 30px;
+  }
+  footer {
+    padding: 75px 0 75px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   footer {
-    padding: 30px 100px;
+    padding: 100px 0 100px;
+  }
+  footer li {
+    font-size: 18px;
+  }
+  .icon-footer {
+    font-size: 50px;
+  }
+  footer .copyright {
+    font-size: 18px;
+  }
+  .logo {
+    width: 100px;
+    transform: translateY(-50%);
+    top: 50%;
   }
 }
 
-@media (min-width: 1440px) {
-  footer {
-    padding: 30px 150px;
+@media screen and (min-width: 1440px) {
+  footer .copyright {
+    right: 50px;
+  }
+  .logo {
+    left: 50px;
   }
 }

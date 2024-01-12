@@ -51,9 +51,6 @@ const Header = () => {
       <a href="#portfolio">
         <CaretDown color="#fcfcfc" weight="bold" />
       </a>
-      <div className="blur blur-1"></div>
-      <div className="blur blur-2"></div>
-      <div className="blur blur-3"></div>
     </div>
   );
 };

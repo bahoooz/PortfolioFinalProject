@@ -20,22 +20,22 @@ const Navbar = () => {
       <ul className="icons-navbar">
         <a href="#portfolio">
           <li>
-            <Package color="#FFF" weight="regular" />
+            <Package weight="regular" />
           </li>
         </a>
-        <a href="#">
+        <a href="#skills">
           <li>
-            <Lightning color="#FFF" weight="regular" />
+            <Lightning weight="regular" />
           </li>
         </a>
         <a href="#histoire">
           <li>
-            <BookOpen color="#FFF" weight="regular" />
+            <BookOpen weight="regular" />
           </li>
         </a>
-        <a href="#contact">
+        <a href="#footer">
           <li>
-            <EnvelopeSimpleOpen color="#FFF" weight="regular" />
+            <EnvelopeSimpleOpen weight="regular" />
           </li>
         </a>
       </ul>

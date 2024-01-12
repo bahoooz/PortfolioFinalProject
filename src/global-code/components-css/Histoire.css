@@ -15,31 +15,6 @@
 #histoire .title h1 {
   font-weight: 300;
 }
-#histoire .blur {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #fff 10%,
-    rgba(135, 79, 255, 0.2) 50%
-  );
-  filter: blur(30vw);
-  height: 400px;
-  width: 400px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-#histoire .blur-1 {
-  top: 200px;
-  left: 0;
-}
-#histoire .blur-2 {
-  top: 600px;
-  left: 100%;
-}
-#histoire .blur-3 {
-  top: 1000px;
-  left: 0;
-}
 .container-histoire {
   display: flex;
   flex-direction: column;
@@ -116,18 +91,6 @@
   #histoire {
     padding: 0 30px;
   }
-  #histoire .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.4) 50%
-    );
-    filter: blur(20vw);
-  }
-  #histoire .blur-3 {
-    top: 1200px;
-    left: 0;
-  }
   .timeline {
     height: 1250px;
   }
@@ -172,14 +135,6 @@
   #histoire {
     padding: 0 50px;
   }
-  #histoire .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.4) 50%
-    );
-    filter: blur(15vw);
-  }
   .timeline-text {
     font-size: 20px;
   }
@@ -222,14 +177,6 @@
     padding: 0 75px;
     height: 650px;
     margin: 150px 0;
-  }
-  #histoire .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.6) 50%
-    );
-    filter: blur(15vw);
   }
   #histoire .title {
     margin-bottom: 300px;
@@ -294,14 +241,6 @@
   }
   #histoire .title {
     margin-bottom: 350px;
-  }
-  #histoire .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.8) 50%
-    );
-    filter: blur(15vw);
   }
   .timeline {
     height: 2px;

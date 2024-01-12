@@ -6,33 +6,6 @@
   align-items: center;
   overflow: hidden;
 }
-#header .blur {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #fff 10%,
-    rgba(135, 79, 255, 0.3) 40%
-  );
-  filter: blur(30vw);
-  height: 400px;
-  width: 400px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-#header .blur-1 {
-  top: 0;
-  left: 0;
-}
-
-#header .blur-2 {
-  top: 50%;
-  left: 100%;
-}
-
-#header .blur-3 {
-  top: 80%;
-}
-
 #header h1 {
   text-align: center;
   font-size: 24px;
@@ -96,20 +69,6 @@
   #header span {
     font-size: 2.5vw;
   }
-  #header .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.3) 50%
-    );
-    filter: blur(20vw);
-    height: 600px;
-    width: 600px;
-  }
-
-  #header .blur-3 {
-    top: 100%;
-  }
   .container-projects {
     gap: 75px;
     margin-bottom: 50px;
@@ -150,15 +109,6 @@
   #header h2 br {
     display: block;
   }
-  #header .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.3) 60%
-    );
-    height: 800px;
-    width: 800px;
-  }
   .hover-img {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -181,20 +131,6 @@
 @media (min-width: 1280px) {
   #header {
     padding: 130px 75px 0;
-  }
-  #header .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.3) 60%
-    );
-    height: 600px;
-    width: 600px;
-    filter: blur(15vw);
-  }
-  #header .blur-3 {
-    top: 100%;
-    left: 30%;
   }
   .img-project {
     width: 28vw;
@@ -222,16 +158,6 @@
   }
   .container-projects {
     gap: 70px;
-  }
-  #header .blur {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #fff 10%,
-      rgba(135, 79, 255, 0.3) 60%
-    );
-    height: 700px;
-    width: 700px;
-    filter: blur(12vw);
   }
 }
 
