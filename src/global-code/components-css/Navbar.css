@@ -25,8 +25,15 @@ nav img {
   gap: 15px;
   align-items: center;
 }
+.infobulle-navbar {
+  display: none;
+}
 .icons-navbar li {
   height: 30px;
+  position: relative;
+}
+.infobulle-navbar span {
+  font-size: 18px;
 }
 .icons-navbar li:hover {
   transform: scale(1.05);
@@ -63,6 +70,20 @@ nav .url:hover {
 @media (min-width: 905px) {
   nav {
     padding: 0 50px;
+  }
+  .infobulle-navbar {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    background: black;
+    padding: 4px 15px;
+    justify-content: center;
+    align-items: center;
+    top: 180%;
+    border-radius: 5px;
+  }
+  .icons-navbar li:hover .infobulle-navbar {
+    display: flex;
   }
 }
 
