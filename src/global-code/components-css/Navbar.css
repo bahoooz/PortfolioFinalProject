@@ -26,7 +26,19 @@ nav img {
   align-items: center;
 }
 .infobulle-navbar {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  background: black;
+  padding: 4px 15px;
+  justify-content: center;
+  align-items: center;
+  top: 180%;
+  border-radius: 5px;
   display: none;
+}
+.icons-navbar li:hover .infobulle-navbar {
+  display: flex;
 }
 .icons-navbar li {
   height: 30px;
@@ -70,20 +82,6 @@ nav .url:hover {
 @media (min-width: 905px) {
   nav {
     padding: 0 50px;
-  }
-  .infobulle-navbar {
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    background: black;
-    padding: 4px 15px;
-    justify-content: center;
-    align-items: center;
-    top: 180%;
-    border-radius: 5px;
-  }
-  .icons-navbar li:hover .infobulle-navbar {
-    display: flex;
   }
 }
 
