@@ -19,7 +19,7 @@ const Header = () => {
       <div className="container-projects">
 
         <div className="img-box">
-          <a target="_blank" href="" className="hover-img">
+          <a target="_blank" href="https://template-site-1-bahoz.netlify.app/" className="hover-img">
             <Link className="icon-header" />
           </a>
           <img
