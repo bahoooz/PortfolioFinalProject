@@ -12,7 +12,7 @@
     #fff 10%,
     rgba(135, 79, 255, 0.3) 40%
   );
-  filter: blur(30vw);
+  filter: blur(120px);
   height: 400px;
   width: 400px;
   position: absolute;
@@ -77,7 +77,7 @@
       #fff 10%,
       rgba(135, 79, 255, 0.3) 60%
     );
-    filter: blur(25vw);
+    filter: blur(130px);
     height: 500px;
     width: 500px;
   }
@@ -117,7 +117,7 @@
       #fff 10%,
       rgba(135, 79, 255, 0.3) 60%
     );
-    filter: blur(20vw);
+    filter: blur(170px);
     height: 600px;
     width: 600px;
   }
@@ -144,7 +144,7 @@
       #fff 10%,
       rgba(135, 79, 255, 0.3) 80%
     );
-    filter: blur(15vw);
+    filter: blur(200px);
   }
   /* BLUR HEADER */
   .blur-header .blur-1 {
@@ -183,7 +183,7 @@
       #fff 10%,
       rgba(135, 79, 255, 0.3) 80%
     );
-    filter: blur(10vw);
+    filter: blur(160px);
     height: 600px;
     width: 600px;
   }
