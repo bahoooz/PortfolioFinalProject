@@ -17,6 +17,8 @@ nav .url {
 nav img {
   width: 50px;
   border-radius: 50%;
+  cursor: pointer;
+  transition: .3s;
 }
 .icons-navbar {
   display: flex;
@@ -58,12 +60,6 @@ nav img {
 nav .url {
   text-decoration: none;
 }
-nav .url:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  transition: 0.3s;
-  color: #d1c6ff;
-}
 
 @media (min-width: 600px) {
   nav {
@@ -73,6 +69,9 @@ nav .url:hover {
     display: flex;
     align-items: center;
     gap: 15px;
+  }
+  .left-nav img:hover {
+    scale: 1.1;
   }
   nav .url {
     display: block;
