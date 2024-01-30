@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import "../components-css/ProjectBox.css";
 
 const ProjectBox = ({
@@ -21,7 +21,7 @@ const ProjectBox = ({
   return (
     <div className="container-project-box">
       <div className="container-img-box-project">
-        <a href={link} target="_blank">
+        <a href={link} target="blank">
           <img className="img-box-project" src={img} alt={alt} />
           <div className="hover-img-box-project">
             <span className="desc-img-box-project">{desc}</span>
