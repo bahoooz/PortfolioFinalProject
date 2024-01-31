@@ -18,6 +18,21 @@
     width: fit-content;
 }
 
+.level {
+    text-transform: uppercase;
+    color: #d1c6ff;
+    font-size: 12px;
+}
+
+.title-skill {
+    margin-top: 5px;
+}
+
+.content-skillbox {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width: 1280px) {
     .box-skill {
         height: 170px;

@@ -54,7 +54,13 @@
 /* BLUR SKILLS */
 
 .blur-skills .blur-1 {
-  top: 5400px;
+  top: 5500px;
+  left: 50%;
+  z-index: 0 !important;
+}
+
+.blur-skills .blur-2 {
+  top: 5900px;
   left: 50%;
   z-index: 0 !important;
 }
@@ -62,12 +68,12 @@
 /* BLUR HISTOIRE */
 
 .blur-histoire .blur-1 {
-  top: 6100px;
+  top: 6600px;
   left: 0;
 }
 
 .blur-histoire .blur-2 {
-  top: 6600px;
+  top: 7100px;
   left: 100%;
 }
 
@@ -99,15 +105,18 @@
   }
   /* BLUR SKILLS */
   .blur-skills .blur-1 {
-    top: 65%;
+    top: 62%;
+  }
+  .blur-skills .blur-2 {
+    top: 68%;
   }
   /* BLUR HISTOIRE */
   .blur-histoire .blur-1 {
-    top: 77%;
+    top: 79%;
     left: 0;
   }
   .blur-histoire .blur-2 {
-    top: 88%;
+    top: 90%;
     left: 100%;
   }
 }
@@ -138,6 +147,12 @@
     display: none;
   }
   /* BLUR SKILLS */
+  .blur-skills .blur-1 {
+    top: 67.5%;
+  }
+  .blur-skills .blur-2 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -163,13 +178,16 @@
   }
   /* BLUR PORTFOLIO */
   .blur-portfolio .blur-1 {
-    top: 1600px;
-    left: 70%;
+    top: 1500px;
+    left: 65%;
   }
   .blur-portfolio .blur-2 {
     display: none;
   }
   /* BLUR SKILLS */
+  .blur-skills .blur-1 {
+    top: 63%;
+  }
   /* BLUR HISTOIRE */
   .blur-histoire .blur-1 {
     top: 90%;
@@ -199,6 +217,7 @@
   }
   /* BLUR PORTFOLIO */
   .blur-portfolio .blur-1 {
-    top: 1900px;
+    top: 37%;
+    left: 63%;
   }
 }

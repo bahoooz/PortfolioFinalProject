@@ -1,4 +1,3 @@
-import React from "react";
 import "../components-css/Blur.css";
 
 const Blur = () => {
@@ -16,6 +15,7 @@ const Blur = () => {
       </div>
       <div className="blur-skills blur-section">
         <div className="blur blur-1"></div>
+        <div className="blur blur-2"></div>
       </div>
       <div className="blur-histoire blur-section">
         <div className="blur blur-1"></div>
