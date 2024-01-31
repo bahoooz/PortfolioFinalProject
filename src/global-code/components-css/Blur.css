@@ -13,6 +13,7 @@
     rgba(135, 79, 255, 0.3) 40%
   );
   filter: blur(120px);
+  -webkit-filter: blur(120px);
   height: 400px;
   width: 400px;
   position: absolute;
@@ -78,6 +79,7 @@
       rgba(135, 79, 255, 0.3) 60%
     );
     filter: blur(130px);
+    -webkit-filter: blur(130px);
     height: 500px;
     width: 500px;
   }
@@ -118,6 +120,7 @@
       rgba(135, 79, 255, 0.3) 60%
     );
     filter: blur(170px);
+    -webkit-filter: blur(170px);
     height: 600px;
     width: 600px;
   }
@@ -145,6 +148,7 @@
       rgba(135, 79, 255, 0.3) 80%
     );
     filter: blur(200px);
+    -webkit-filter: blur(200px);
   }
   /* BLUR HEADER */
   .blur-header .blur-1 {
@@ -184,6 +188,7 @@
       rgba(135, 79, 255, 0.3) 80%
     );
     filter: blur(160px);
+    -webkit-filter: blur(160px);
     height: 600px;
     width: 600px;
   }
