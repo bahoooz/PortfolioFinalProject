@@ -1,9 +1,14 @@
 import { BookOpen } from "@phosphor-icons/react";
 import "../components-css/Histoire.css";
 
+import { useInView } from "react-intersection-observer";
+
 const Histoire = () => {
+
+  const { ref: histoireRef, inView: histoireIsVisible } = useInView();
+
   return (
-    <div id="histoire">
+    <div ref={histoireRef} id="histoire" className={histoireIsVisible ? "anime-histoire" : "invisible"}>
       <div className="title">
         <BookOpen size="50px" color="#FFF" weight="regular" />
         <h1>- histoire</h1>
@@ -35,7 +40,7 @@ const Histoire = () => {
             <span> veille technique</span>, tutos et projets personnels.
           </p>
           <p className="timeline-text tx4">
-            Recherche {"d'un"} <span>premier job</span> en tant que développeur <span>front-end</span> pour début 2024 en attendant de devenir développeur <span>full-stack</span>.
+            Recherche {"d'un"} <span>premier job</span> en tant que développeur <span>front-end</span> ou une <span>alternance</span> en attendant de devenir développeur <span>full-stack</span>.
           </p>
         </div>
       </div>

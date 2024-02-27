@@ -87,6 +87,22 @@
   width: 150px;
 }
 
+.anime-histoire {
+  animation: animation-histoire;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animation-histoire {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (min-width: 600px) {
   #histoire {
     padding: 0 30px;

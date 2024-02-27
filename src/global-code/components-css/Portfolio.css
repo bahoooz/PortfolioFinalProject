@@ -31,6 +31,22 @@
   z-index: 0;
 }
 
+.anime-portfolio {
+  animation: animation-portfolio;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animation-portfolio {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media screen and (min-width: 600px) {
   #portfolio {
     padding: 0 30px;
@@ -38,6 +54,7 @@
   .container-portfolio {
     grid-template-columns: repeat(2, 1fr);
     gap: 70px 12vw;
+    opacity: 1;
   }
 }
 

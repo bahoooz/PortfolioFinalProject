@@ -1,4 +1,3 @@
-import React from "react";
 import "../components-css/Portfolio.css";
 import { Package } from "@phosphor-icons/react";
 import ProjectBox from "./ProjectBox";
@@ -13,9 +12,14 @@ import CssImg from "../../assets/css-3.webp";
 import JsImg from "../../assets/js.webp";
 import ReactImg from "../../assets/react.webp";
 
+import { useInView } from "react-intersection-observer";
+
 const Portfolio = () => {
+
+  const { ref: portfolioRef, inView: portfolioIsVisible } = useInView();
+
   return (
-    <div id="portfolio">
+    <div ref={portfolioRef} id="portfolio" className={portfolioIsVisible ? "anime-portfolio" : "invisible"}>
       <div className="title">
         <Package size="50px" color="#FFF" weight="regular" />
         <h1>- portfolio</h1>

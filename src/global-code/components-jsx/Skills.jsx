@@ -14,9 +14,14 @@ import FigmaImg from "../../assets/figma.webp";
 import TailwindImg from "../../assets/tailwind-logo.webp";
 import AIImg from "../../assets/illustrator.webp";
 
+import { useInView } from "react-intersection-observer";
+
 const Skills = () => {
+
+  const { ref: skillsRef, inView: skillsIsVisible } = useInView();
+
   return (
-    <div id="skills">
+    <div ref={skillsRef} id="skills" className={skillsIsVisible ? "anime-skills" : "invisible"}>
       <div className="title">
         <Lightning size="50px" color="#FFF" weight="regular" />
         <h1>- skills</h1>

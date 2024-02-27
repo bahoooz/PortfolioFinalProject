@@ -56,13 +56,13 @@
 .blur-skills .blur-1 {
   top: 5500px;
   left: 50%;
-  z-index: 0 !important;
+  z-index: 2 !important;
 }
 
 .blur-skills .blur-2 {
   top: 5900px;
   left: 50%;
-  z-index: 0 !important;
+  z-index: 2 !important;
 }
 
 /* BLUR HISTOIRE */
