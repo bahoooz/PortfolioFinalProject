@@ -1,9 +1,10 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import "../components-css/Header.css";
 import { CaretDown, Link } from "@phosphor-icons/react";
 import HydraImg from "../../assets/header-hydra.webp";
 import EliseImg from "../../assets/header-elise.webp";
 import UtfImg from "../../assets/header-utf.webp";
+import Typewriter from "./TypewritterEffect";
 
 const Header = () => {
   return (
@@ -15,11 +16,15 @@ const Header = () => {
         Je suis développeur Web Front-End, <br /> et apprenti développeur web
         Full-Stack
       </h2>
-      <span>{"</> / <h2></h2> const devModeOn = (yes) => {}"}</span>
+      <Typewriter text="</> / <h2></h2> const devModeOn = (yes) => {}" />
       <div className="container-projects">
-
         <div className="img-box">
-          <a target="_blank" href="https://template-site-1-bahoz.netlify.app/" className="hover-img">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://template-site-1-bahoz.netlify.app/"
+            className="hover-img"
+          >
             <Link className="icon-header" />
           </a>
           <img
@@ -30,14 +35,24 @@ const Header = () => {
         </div>
 
         <div className="img-box">
-          <a target="_blank" href="https://utf-app.netlify.app/" className="hover-img">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://utf-app.netlify.app/"
+            className="hover-img"
+          >
             <Link className="icon-header" />
           </a>
           <img className="img-project" src={UtfImg} alt="Image projet Utf" />
         </div>
 
         <div className="img-box">
-          <a target="_blank" href="https://bahoooz.github.io/elise-portfolio/" className="hover-img">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://bahoooz.github.io/elise-portfolio/"
+            className="hover-img"
+          >
             <Link className="icon-header" />
           </a>
           <img
@@ -46,7 +61,6 @@ const Header = () => {
             alt="Image projet Elise"
           />
         </div>
-
       </div>
       <a href="#portfolio">
         <CaretDown color="#fcfcfc" weight="bold" />
