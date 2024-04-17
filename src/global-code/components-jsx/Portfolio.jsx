@@ -1,7 +1,7 @@
 import "../components-css/Portfolio.css";
 import { Package } from "@phosphor-icons/react";
 import ProjectBox from "./ProjectBox";
-import HydraImgProject from "../../assets/project-hydra.png";
+import HydraImgProject from "../../assets/project-hydra.webp";
 import UtfImgProject from "../../assets/project-utf.webp";
 import ElisePortfolioImgProject from "../../assets/project-elise-portfolio.webp";
 import AncienPorfolioImgProject from "../../assets/project-ancien-portfolio.webp";

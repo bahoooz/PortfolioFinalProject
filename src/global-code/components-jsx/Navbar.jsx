@@ -17,7 +17,7 @@ const Navbar = () => {
           alt="logo bahoz"
         />
         <span className="url">
-          bahoz-dev.netlify.app
+          bahoz-dev.com
         </span>
       </div>
       <ul className="icons-navbar">

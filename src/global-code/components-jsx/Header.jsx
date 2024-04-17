@@ -13,10 +13,12 @@ const Header = () => {
         Je m'appelle <br /> Julien Brault--Chérif,
       </h1>
       <h2>
-        Je suis développeur Web Front-End, <br /> et apprenti développeur web
+        Développeur Web Front-End, <br /> En apprentissage
         Full-Stack
       </h2>
-      <Typewriter text="</> / <h2></h2> const devModeOn = (yes) => {}" />
+      <a className="link-header" href="https://discord.gg/sM4ebMACKA" target="_blank" rel="noreferrer">
+      <Typewriter text="Rejoindre mon discord : https://discord.gg/sM4ebMACKA" />
+      </a>
       <div className="container-projects">
         <div className="img-box">
           <a
