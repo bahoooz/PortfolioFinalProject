@@ -4,27 +4,50 @@ import ProjectBox from "./ProjectBox";
 import HydraImgProject from "../../assets/project-hydra.webp";
 import UtfImgProject from "../../assets/project-utf.webp";
 import ElisePortfolioImgProject from "../../assets/project-elise-portfolio.webp";
-import AncienPorfolioImgProject from "../../assets/project-ancien-portfolio.webp";
 import EcobotImgProject from "../../assets/project-ecobot.webp";
 import OthersImgProject from "../../assets/project-others.webp";
 import HtmlImg from "../../assets/html-5.webp";
 import CssImg from "../../assets/css-3.webp";
 import JsImg from "../../assets/js.webp";
 import ReactImg from "../../assets/react.webp";
+import TailwindImg from "../../assets/tailwind-logo.webp"
+import NodeImg from "../../assets/node_logo.webp";
+import MongoImg from "../../assets/mongodb.webp";
+import BlogMernImgProject from "../../assets/project-blog-mern.webp";
 
 import { useInView } from "react-intersection-observer";
 
 const Portfolio = () => {
-
   const { ref: portfolioRef, inView: portfolioIsVisible } = useInView();
 
   return (
-    <div ref={portfolioRef} id="portfolio" className={portfolioIsVisible ? "anime-portfolio" : "invisible"}>
+    <div
+      ref={portfolioRef}
+      id="portfolio"
+      className={portfolioIsVisible ? "anime-portfolio" : "invisible"}
+    >
       <div className="title">
         <Package size="50px" color="#FFF" weight="regular" />
         <h1>- portfolio</h1>
       </div>
       <div className="container-portfolio">
+        <ProjectBox
+          name="Blog Développement Web"
+          desc={`Blog full-stack sur le développement web avec des posts, possibilité de liker, commenter, se connecter, etc... (problème de lien temporaire)`}
+          img={BlogMernImgProject}
+          alt="image projet Hydra"
+          link="https://mern-blog-nfas.onrender.com/"
+          techno_1={ReactImg}
+          techno_2={TailwindImg}
+          techno_3={NodeImg}
+          techno_4={MongoImg}
+          alt_techno_1="logo react"
+          alt_techno_2=" logo tailwind"
+          alt_techno_3=" logo nodejs"
+          alt_techno_4="logo mongodb"
+          mobile_desc={`Blog full-stack sur le développement web avec des posts, possibilité de liker, commenter, se connecter, etc... (problème de lien temporaire)`}
+          mobile_technos="React, TailwindCSS, NodeJs, MongoDB"
+        />
         <ProjectBox
           name="Hydra Landing Page"
           desc={`Template de site "single page" pour la présentation de produits`}
@@ -73,23 +96,6 @@ const Portfolio = () => {
           alt_techno_3=" logo js"
           mobile_desc="Portfolio de la graphiste Elise Huang (un nouveau est en cours de réalisation)"
           mobile_technos="Html, Css, Js"
-        />
-        <ProjectBox
-          name="Ancien Portfolio"
-          desc="Premier essai d'un projet en React, portfolio pas du tout terminé (responsive non disponible)"
-          img={AncienPorfolioImgProject}
-          alt="image projet Ancien Portfolio"
-          link=""
-          techno_1={HtmlImg}
-          techno_2={CssImg}
-          techno_3={JsImg}
-          techno_4={ReactImg}
-          alt_techno_1="logo html"
-          alt_techno_2=" logo css"
-          alt_techno_3=" logo js"
-          alt_techno_4="logo react"
-          mobile_desc="Premier essai d'un projet en React, portfolio pas du tout terminé (responsive non disponible)"
-          mobile_technos="Html, Css, Js, React"
         />
         <ProjectBox
           name="Ecobot"

@@ -2,8 +2,8 @@
 import "../components-css/Header.css";
 import { CaretDown, Link } from "@phosphor-icons/react";
 import HydraImg from "../../assets/header-hydra.webp";
-import EliseImg from "../../assets/header-elise.webp";
 import UtfImg from "../../assets/header-utf.webp";
+import MernBlogImg from "../../assets/header-blog-mern.webp";
 import Typewriter from "./TypewritterEffect";
 
 const Header = () => {
@@ -16,10 +16,25 @@ const Header = () => {
         Développeur Web Front-End, <br /> En apprentissage
         Full-Stack
       </h2>
-      <a className="link-header" href="https://discord.gg/sM4ebMACKA" target="_blank" rel="noreferrer">
-      <Typewriter text="Rejoindre mon discord : https://discord.gg/sM4ebMACKA" />
+      <a className="link-header" href="https://discord.gg/rvzyZVqdDs" target="_blank" rel="noreferrer">
+      <Typewriter text="Rejoindre mon discord : https://discord.gg/rvzyZVqdDs" />
       </a>
       <div className="container-projects">
+        <div className="img-box">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://mern-blog-nfas.onrender.com/"
+            className="hover-img"
+          >
+            <Link className="icon-header" />
+          </a>
+          <img
+            className="img-project"
+            src={MernBlogImg}
+            alt="Image projet Mern blog"
+          />
+        </div>
         <div className="img-box">
           <a
             target="_blank"
@@ -46,22 +61,6 @@ const Header = () => {
             <Link className="icon-header" />
           </a>
           <img className="img-project" src={UtfImg} alt="Image projet Utf" />
-        </div>
-
-        <div className="img-box">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://bahoooz.github.io/elise-portfolio/"
-            className="hover-img"
-          >
-            <Link className="icon-header" />
-          </a>
-          <img
-            className="img-project"
-            src={EliseImg}
-            alt="Image projet Elise"
-          />
         </div>
       </div>
       <a href="#portfolio">
