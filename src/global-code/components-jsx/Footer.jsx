@@ -29,7 +29,7 @@ const Footer = () => {
         </li>
         <li>
           <DiscordLogo className="icon-footer" weight="fill" color="#D1C6FF" />
-          <a target="_blank" rel="noreferrer" href="https://discord.gg/sM4ebMACKA">Discord</a>
+          <a target="_blank" rel="noreferrer" href="https://discord.gg/rvzyZVqdDs">Discord</a>
         </li>
       </ul>
       <span className="copyright">
