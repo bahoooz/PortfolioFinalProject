@@ -10,7 +10,7 @@ import HtmlImg from "../../assets/html-5.webp";
 import CssImg from "../../assets/css-3.webp";
 import JsImg from "../../assets/js.webp";
 import ReactImg from "../../assets/react.webp";
-import TailwindImg from "../../assets/tailwind-logo.webp"
+import TailwindImg from "../../assets/tailwind-logo.webp";
 import NodeImg from "../../assets/node_logo.webp";
 import MongoImg from "../../assets/mongodb.webp";
 import BlogMernImgProject from "../../assets/project-blog-mern.webp";
@@ -33,7 +33,7 @@ const Portfolio = () => {
       <div className="container-portfolio">
         <ProjectBox
           name="Blog Développement Web"
-          desc={`Blog full-stack sur le développement web avec des posts, possibilité de liker, commenter, se connecter, etc... (problème de lien temporaire)`}
+          desc={`Blog full-stack sur le développement web avec des posts, possibilité de liker, commenter, se connecter, etc...`}
           img={BlogMernImgProject}
           alt="image projet Hydra"
           link="https://mern-blog-nfas.onrender.com/"
@@ -45,7 +45,7 @@ const Portfolio = () => {
           alt_techno_2=" logo tailwind"
           alt_techno_3=" logo nodejs"
           alt_techno_4="logo mongodb"
-          mobile_desc={`Blog full-stack sur le développement web avec des posts, possibilité de liker, commenter, se connecter, etc... (problème de lien temporaire)`}
+          mobile_desc={`Blog full-stack sur le développement web avec des posts, possibilité de liker, commenter, se connecter, etc...`}
           mobile_technos="React, TailwindCSS, NodeJs, MongoDB"
         />
         <ProjectBox
