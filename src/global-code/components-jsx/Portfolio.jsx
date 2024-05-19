@@ -13,7 +13,9 @@ import ReactImg from "../../assets/react.webp";
 import TailwindImg from "../../assets/tailwind-logo.webp";
 import NodeImg from "../../assets/node_logo.webp";
 import MongoImg from "../../assets/mongodb.webp";
+import NextImg from "../../assets/next-logo.webp"
 import BlogMernImgProject from "../../assets/project-blog-mern.webp";
+import GmcImgProject from "../../assets/project-gmc.webp";
 
 import { useInView } from "react-intersection-observer";
 
@@ -31,6 +33,21 @@ const Portfolio = () => {
         <h1>- portfolio</h1>
       </div>
       <div className="container-portfolio">
+        <ProjectBox
+          name="Garry's Mod Creators"
+          desc={`Structure de services contre rémunération basée sur le jeu Garry's Mod`}
+          img={GmcImgProject}
+          alt="image projet Garry's Mod Creators"
+          link="https://gmc-website-alpha.vercel.app/"
+          techno_1={NextImg}
+          techno_2={ReactImg}
+          techno_3={TailwindImg}
+          alt_techno_1="logo nextjs"
+          alt_techno_2="logo react"
+          alt_techno_3="logo tailwind"
+          mobile_desc={`Structure de services contre rémunération basée sur le jeu Garry's Mod`}
+          mobile_technos="Nextjs, React, TailwindCSS, MongoDB"
+        />
         <ProjectBox
           name="Blog Développement Web"
           desc={`Blog full-stack sur le développement web avec des posts, possibilité de liker, commenter, se connecter, etc...`}

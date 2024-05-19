@@ -2,7 +2,7 @@
 import "../components-css/Header.css";
 import { CaretDown, Link } from "@phosphor-icons/react";
 import HydraImg from "../../assets/header-hydra.webp";
-import UtfImg from "../../assets/header-utf.webp";
+import GmcImg from "../../assets/header-gmc.webp";
 import MernBlogImg from "../../assets/header-blog-mern.webp";
 import Typewriter from "./TypewritterEffect";
 
@@ -20,6 +20,21 @@ const Header = () => {
       <Typewriter text="Rejoindre mon discord : https://discord.gg/rvzyZVqdDs" />
       </a>
       <div className="container-projects">
+        <div className="img-box">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://gmc-website-alpha.vercel.app/"
+            className="hover-img"
+          >
+            <Link className="icon-header" />
+          </a>
+          <img
+            className="img-project"
+            src={GmcImg}
+            alt="Image projet Mern blog"
+          />
+        </div>
         <div className="img-box">
           <a
             target="_blank"
@@ -49,18 +64,6 @@ const Header = () => {
             src={HydraImg}
             alt="Image projet Hydra"
           />
-        </div>
-
-        <div className="img-box">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://utf-app.netlify.app/"
-            className="hover-img"
-          >
-            <Link className="icon-header" />
-          </a>
-          <img className="img-project" src={UtfImg} alt="Image projet Utf" />
         </div>
       </div>
       <a href="#portfolio">
