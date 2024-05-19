@@ -38,7 +38,7 @@ const Portfolio = () => {
           desc={`Structure de services contre rémunération basée sur le jeu Garry's Mod`}
           img={GmcImgProject}
           alt="image projet Garry's Mod Creators"
-          link="https://gmc-website-alpha.vercel.app/"
+          link="https://gmod-creators.com"
           techno_1={NextImg}
           techno_2={ReactImg}
           techno_3={TailwindImg}

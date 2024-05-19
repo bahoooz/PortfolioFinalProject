@@ -24,7 +24,7 @@ const Header = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://gmc-website-alpha.vercel.app/"
+            href="https://gmod-creators.com"
             className="hover-img"
           >
             <Link className="icon-header" />
