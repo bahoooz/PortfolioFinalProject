@@ -13,8 +13,7 @@ const Header = () => {
         Je m'appelle <br /> Julien Brault--Chérif,
       </h1>
       <h2>
-        Développeur Web Front-End, <br /> En apprentissage
-        Full-Stack
+        Développeur Web Full-Stack
       </h2>
       <a className="link-header" href="https://discord.gg/rvzyZVqdDs" target="_blank" rel="noreferrer">
       <Typewriter text="Rejoindre mon discord : https://discord.gg/rvzyZVqdDs" />
