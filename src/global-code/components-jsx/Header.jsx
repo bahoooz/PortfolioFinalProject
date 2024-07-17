@@ -15,8 +15,8 @@ const Header = () => {
       <h2>
         Développeur Web Full-Stack
       </h2>
-      <a className="link-header" href="https://discord.gg/rvzyZVqdDs" target="_blank" rel="noreferrer">
-      <Typewriter text="Rejoindre mon discord : https://discord.gg/rvzyZVqdDs" />
+      <a className="link-header" href="https://www.linkedin.com/in/julien-brault-ch%C3%A9rif-aa276226b/" target="_blank" rel="noreferrer">
+      <Typewriter text="Vooir mon linkedin !" />
       </a>
       <div className="container-projects">
         <div className="img-box">
